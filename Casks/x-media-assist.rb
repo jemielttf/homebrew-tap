@@ -3,13 +3,12 @@ cask "x-media-assist" do
   sha256 "17a7132f7b95ef68025721999704d564900e8daa128cc2db1afb695d13b500c5"
 
   url "https://github.com/jemielttf/X-MediaAssist-safari/releases/download/v#{version}/X-Media-Assist-#{version}.zip"
-
   name "X Media Assist"
   desc "Safari extension for downloading videos and GIF animations from X"
   homepage "https://github.com/jemielttf/X-MediaAssist-safari"
 
-  depends_on macos: :sonoma
   depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "X Media Assist.app"
 
