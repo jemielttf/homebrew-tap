@@ -1,6 +1,6 @@
 cask "x-media-assist" do
-  version "0.3.6"
-  sha256 "9ee9adc51c39f3c91636bacbb2a713773c9bac0bdaff47fced024a564464de96"
+  version "0.3.7"
+  sha256 "500bd119ddd0ec5868d22f6d11e48612feb93cc3e3d6c8231e21094a62d38c96"
 
   url "https://github.com/jemielttf/X-MediaAssist-safari/releases/download/v#{version}/X-Media-Assist-#{version}.zip"
   name "X Media Assist"
